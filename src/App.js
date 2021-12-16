@@ -3,7 +3,7 @@ import './App.css';
 import ApiFetch from './components/ApiFetch';
 import AppContext from './contexts/AppContext';
 import B from './components/B';
-import C from './components/C';
+import BasicReducer from './components/BasicReducer';
 // import Basic2 from './components/Basic2';
 // import BasicUseEffect from './components/BasicUseEffect';
 // import TimerContainer from './components/TimerContainer';
@@ -17,8 +17,9 @@ function App() {
           {/* <Basic2 /> */}
           {/* <BasicUseEffect /> */}
           {/* <TimerContainer /> */}
-          <ApiFetch />
-          <B />
+          {/* <ApiFetch />
+          <B /> */}
+          <BasicReducer />
         </header>
       </div>
     </AppContext.Provider>
