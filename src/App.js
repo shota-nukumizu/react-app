@@ -10,6 +10,7 @@ import CompB from './components/CompB';
 // import TimerContainer from './components/TimerContainer';
 
 import {useReducer} from 'react'
+import Memo from './components/Memo';
 
 const initialState = 0
 const reducer = (currentState, action) => {
@@ -38,8 +39,9 @@ function App() {
           {/* <ApiFetch />
           <B /> */}
           {/* <BasicReducer /> */}
-          Count {count}
-          <CompB />
+          {/* Count {count} */}
+          {/* <CompB /> */}
+          <Memo />
           
         </header>
       </div>
